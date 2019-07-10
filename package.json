@@ -10,6 +10,7 @@
     "data": "json-server --watch data/db.json",
     "generate": "json-server data/index.js",
     "dev": "concurrently \"npm run start\" \"npm run build\""
+
   },
   "author": "",
   "private": true,
@@ -26,6 +27,7 @@
     "morgan": "^1.7.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-paginate": "^6.3.0",
     "react-router-dom": "^5.0.1"
   },
   "devDependencies": {

@@ -25,7 +25,7 @@ app.use(
   pathfinderUI.router
 );
 
-const port = 6000;
+const port = 6050;
 
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
